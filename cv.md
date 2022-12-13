@@ -35,3 +35,5 @@ function getArrFibonacci() {
 }
 console.log(getArrFibonacci());
 ```
+## Education
+* Belarusian State University of Culture and Arts
