@@ -36,4 +36,7 @@ function getArrFibonacci() {
 console.log(getArrFibonacci());
 ```
 ## Education
-* Belarusian State University of Culture and Arts
+Belarusian State University of Culture and Arts
+
+## English
+А2 (Elementary) (in the process of studying)
