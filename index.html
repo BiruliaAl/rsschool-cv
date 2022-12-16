@@ -4,10 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BiruliaAl</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    Hello
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#my_contacts">Contacts</a></li>
+                    <li><a href="#about_me">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#my_code">Code example</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main_descr">
+        <div class="container">
+            <section class="name">
+                <img src="./assets/11zon_cropped.png" alt="my_foto">
+                <div class="name_descr">
+                    <h1>ALENA BIRULIA</h1>
+                    <h2>Junior Frontend Developer</h2>
+                </div>
+            </section>
+            <section class="contacts">
+                <a name="my_contacts"></a>
+                <h2>Contact information:</h2>
+                <hr>
+                <ul class="contact_list">
+                    <li>Phone: <a href="tel:+375336682696">+375(33)668-26-96</a></li>
+                    <li>E-mail: <a href="mailto:birulia.ip@gmail.com">birulia.ip@gmail.com</a></li>
+                    <li>Telegram: <a href="https://t.me/bisinka_lena">@bisinka_lena</a></li>
+                    <li>GitHub: <a href="https://github.com/BiruliaAl">BiruliaAl</a></li>
+                    <li>City: Belarus, Minsk</li>
+                </ul>
+            </section>
+            <section class="about">
+                <a name="#about_me"></a>
+                <h2>About Me</h2>
+                <p>I learnt Front-End Development in:</p>
+                <ul>
+                    <li>Udemy</li>
+                    <li><a href="https://myitschool.by/">myitschool.by</a></li>
+                    <li><a href="https://rs.school/">RSShool</a> </li>
+                </ul>
+                <p>I have a desire to master this direction. I like to master new technologies, develop and learn new
+                    things.</p>
+            </section>
+            <section>
+                <a name="skills"></a>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git, GitHub</li>
+                    <li>JavaScript (in progress)</li>
+                </ul>
+            </section>
+            <section class="code">
+                <a name="my_code"></a>
+                <h2>Code example:</h2>
+                <pre>
+                        <code>function getArrFibonacci() {
+                            const arr = [];
+                            for (let i = 0; i < 1000; i++) {
+                                if (i === 0 || i === 1) {
+                                    arr.push(i);  
+                                }
+                                if (i === arr.at(-1) + arr.at(-2))
+                                    arr.push(i);
+                            }
+                            return arr;
+                        }
+                        console.log(getArrFibonacci());
+                        </code>
+                    </pre>
+            </section>
+            <section class="education">
+                <a name="education"></a>
+                <h2>Education</h2>
+                <p>Belarusian State University of Culture and Arts</p>
+            </section>
+            <section class="english">
+                <a name="english"></a>
+                <h2>Languages </h2>
+                <p>Russian: nativ</p>
+                <p>English: А2 (Elementary) (in the process of studying)</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="logo_rsschool">
+                <a href="https://rs.school/js/">rs.school</a>
+                <div>GitHub: <br> <a href="https://github.com/BiruliaAl">BiruliaAl</a></div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
