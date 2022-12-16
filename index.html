@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiruliaAl</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#my_contacts">Contacts</a></li>
+                    <li><a href="#about_me">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#my_code">Code example</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main_descr">
+        <div class="container">
+            <div class="main-container">
+                <section class="foto">
+                    <img src="./assets/11zon_cropped.png" alt="my_foto">
+                </section>
+                <section class="name">
+                    <h1>ALENA BIRULIA</h1>
+                    <h3>Junior Frontend Developer</h3>
+                </section>
+                <section id="my_contacts" class="contacts">
+                    <h2>Contact information:</h2>
+                    <ul class="contact_list">
+                        <li>Phone: <a href="tel:+375336682696">+375(33)668-26-96</a></li>
+                        <li>E-mail: <a href="mailto:birulia.ip@gmail.com">birulia.ip@gmail.com</a></li>
+                        <li>Telegram: <a href="https://t.me/bisinka_lena">@bisinka_lena</a></li>
+                        <li>GitHub: <a href="https://github.com/BiruliaAl">BiruliaAl</a></li>
+                        <li>City: Belarus, Minsk</li>
+                    </ul>
+                </section>
+                <section id="about_me" class="about">
+                    <h2>About Me</h2>
+                    <p>I learnt Front-End Development in:</p>
+                    <ul>
+                        <li>Udemy</li>
+                        <li><a href="https://myitschool.by/">myitschool.by (in progress)</a></li>
+                        <li><a href="https://rs.school/">RSShool (in progress)</a> </li>
+                    </ul>
+                    <p>I have a desire to master this direction. I like to master new technologies, develop and learn new
+                        things.</p>
+                </section>
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Git, GitHub</li>
+                        <li>JavaScript (in progress)</li>
+                    </ul>
+                </section>
+                <section id="my_code" class="code">
+                    <h2>Code example:</h2>
+                    <pre class="hljs" style="display: block;        overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">getArrFibonacci</span><span class="hljs-params">()</span> {</span>
+                        const arr = [];
+                        <span class="hljs-keyword" style="font-weight: 700;">for</span> (let <span class="hljs-built_in" style="color: rgb(57, 115, 0);">i</span> = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>; <span class="hljs-built_in" style="color: rgb(57, 115, 0);">i</span> &lt; <span class="hljs-number" style="color: rgb(136, 0, 0);">1000</span>; <span class="hljs-built_in" style="color: rgb(57, 115, 0);">i</span>++) {
+                            if (i === <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span> || i === <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>) {
+                                arr.push(i);  
+                            }
+                            <span class="hljs-keyword" style="font-weight: 700;">if</span> (<span class="hljs-built_in" style="color: rgb(57, 115, 0);">i</span> === arr.at(<span class="hljs-number" style="color: rgb(136, 0, 0);">-1</span>) + arr.at(<span class="hljs-number" style="color: rgb(136, 0, 0);">-2</span>))
+                                arr.push(<span class="hljs-built_in" style="color: rgb(57, 115, 0);">i</span>);
+                        }
+                        <span class="hljs-keyword" style="font-weight: 700;">return</span> arr;
+                        }
+                        console.<span class="hljs-built_in" style="color: rgb(57, 115, 0);">log</span>(getArrFibonacci());
+                    </pre>
+                    <hr>
+                    <div class="code_exp">
+                        <a target="_blank" href="https://changeable-slow-grouse.glitch.me/">project HTML/CSS</a>
+                    </div>
+                    <div class="code_exp">
+                        <a target="_blank" href="https://telling-slime-pearl.glitch.me/">project HTML/CSS</a>
+                    </div>
+                </section>
+                <section id="education" class="education">
+                    <h2>Education</h2>
+                    <p>Belarusian State University of Culture and Arts</p>
+                </section>
+                <section id="english" class="english">
+                    <h2>Languages </h2>
+                    <p>Russian: nativ</p>
+                    <p>English: А2 (Elementary) (in the process of studying)</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <img class="footer_item" src="https://rs.school/images/rs_school_js.svg" alt="logo_rsschool">
+                <a class="footer_item" href="https://rs.school/js/">rs.school</a>
+                <div class="footer_item footer_descr">GitHub <br> 2022: <br> <a href="https://github.com/BiruliaAl">BiruliaAl</a></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
